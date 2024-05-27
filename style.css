@@ -1,0 +1,157 @@
+:root {
+    --color-primary: #ffb969;
+    --color-secondary: #4F1C15;
+    --color-text: #000000;
+    --color-background: #FFFFFF;
+    --color-link-text: #359BF9;
+
+    --font-size-topbar: 2.8vw;
+    --font-size-menu-toggle: 2vw;
+    --font-size-title: 5vw;
+    --font-size-subtitle: 3vw;
+    --font-size-text: 2vw;
+}
+
+html {
+    height: auto;
+}
+
+body{
+    margin-top: 160px;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+    background-color: rgb(241, 235, 216);
+    height: auto;
+}
+
+.cabecalho {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    font-size: 20px;
+    padding-right: 16px;
+}
+
+.nav-link {
+    color: var(--color-secondary);
+}
+
+.navbar {
+    justify-content: center;
+}
+.navbar-nav {
+    justify-content: center;
+    flex-grow: 1;
+    gap: 16px;
+}
+.navbar-toggler {
+    margin-left: auto;
+}
+
+.principal-aaarp {
+    margin-top: 112.2px;
+}
+
+@media (max-width: 992px) {
+    .centralizador {
+        display: none;
+    }
+}
+
+.font-color-primary {
+    color: var(--color-primary);
+}
+
+.img-aaarp {
+    display: flex;
+    justify-content: center;
+}
+
+.botao-padrao {
+    width: 100%;
+    background-color: var(--color-secondary);
+    border: none;
+}
+
+.botao-padrao:hover {
+    background-color: #2b0b05;
+}
+
+.botao-secundario {
+    width: 100%;
+    background-color: var(--color-primary);
+    border: none;
+}
+
+.botao-secundario:hover {
+    background-color: #a87b47;
+}
+
+.historia-pessoau {
+    background-color: var(--color-secondary);
+    color: #fff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 2rem 0;
+}
+
+.dog-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.dog-card {
+    background: transparent;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+.dog-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.card {
+    border: none;
+    background-color: var(--color-secondary);
+}
+
+.dog-card h5 {
+    margin-top: 0.5rem;
+}
+
+.dia-a-dia-abrigo {
+    background-color: var(--color-secondary);
+    color: #fff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 2rem 0;
+}
+
+.voluntarios-inicio {
+    background-color: var(--color-secondary);
+    color: #fff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 2rem 0;
+}
+
+.rodape {
+    background-color: var(--color-primary);
+    color: #fff;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding: 2rem 0;
+}
+
+.rodape-alinhar{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div-img-rodape {
+    width: auto;
+}
