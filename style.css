@@ -12,18 +12,15 @@
     --font-size-text: 2vw;
 }
 
-html {
-    height: auto;
-}
-
-body{
-    margin-top: 160px;
+html, body {
+    width: 100%;
+    margin: 0;
     padding: 0;
     font-family: 'Lexend', sans-serif;
     background-color: rgb(241, 235, 216);
-    height: auto;
+    overflow-x: hidden;
+    padding-top: 50px;
 }
-
 .cabecalho {
     background-color: var(--color-primary);
     color: var(--color-secondary);
@@ -89,9 +86,17 @@ body{
 .historia-pessoau {
     background-color: var(--color-secondary);
     color: #fff;
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: calc(-50vw + 50%);
+}
+
+.historia-pessoau .row {
+    justify-content: center;
+    gap: 16px;
 }
 
 .dog-card img {
@@ -107,6 +112,11 @@ body{
     border: none;
     text-align: center;
     color: #fff;
+    margin-bottom: 1rem;
+}
+
+.dog-card h5 {
+    margin-top: 0.5rem;
 }
 
 .dog-card:hover {
@@ -117,10 +127,6 @@ body{
 .card {
     border: none;
     background-color: var(--color-secondary);
-}
-
-.dog-card h5 {
-    margin-top: 0.5rem;
 }
 
 .dia-a-dia-abrigo {
@@ -143,13 +149,12 @@ body{
     background-color: var(--color-primary);
     color: #fff;
     width: 100vw;
-    margin-left: calc(-50vw + 50%);
     padding: 2rem 0;
 }
 
 .rodape-alinhar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .div-img-rodape {
