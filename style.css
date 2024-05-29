@@ -160,3 +160,11 @@ html, body {
 .div-img-rodape {
     width: auto;
 }
+
+.borda-arredondada {
+    border-radius: 20px;
+}
+
+.fundo-secundario {
+    background-color: var(--color-secondary);
+}
