@@ -58,6 +58,10 @@ html, body {
     color: var(--color-primary);
 }
 
+.font-color-secondary {
+    color: var(--color-secondary);
+}
+
 .img-aaarp {
     display: flex;
     justify-content: center;
@@ -167,4 +171,38 @@ html, body {
 
 .fundo-secundario {
     background-color: var(--color-secondary);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+.accordion-button {
+    background-color: transparent;
+    color: var(--color-text);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-text);
+    background-color: #fff;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.accordion-button.collapsed {
+    color: var(--color-text);
+}
+
+.accordion-button.collapsed:hover {
+    background-color: #e9ecef;
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: invert(0%);
+}
+
+.value-text img {
+    max-width: 100px; /* Ajuste o tamanho conforme necessário */
+}
+.value-text p {
+    margin-top: 10px; /* Ajuste o espaçamento conforme necessário */
 }
