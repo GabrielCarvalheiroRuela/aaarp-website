@@ -12,7 +12,8 @@
     --font-size-text: 2vw;
 }
 
-html, body {
+html,
+body {
     width: 100%;
     margin: 0;
     padding: 0;
@@ -21,6 +22,7 @@ html, body {
     overflow-x: hidden;
     padding-top: 50px;
 }
+
 .cabecalho {
     background-color: var(--color-primary);
     color: var(--color-secondary);
@@ -35,11 +37,13 @@ html, body {
 .navbar {
     justify-content: center;
 }
+
 .navbar-nav {
     justify-content: center;
     flex-grow: 1;
     gap: 16px;
 }
+
 .navbar-toggler {
     margin-left: auto;
 }
@@ -156,7 +160,7 @@ html, body {
     padding: 2rem 0;
 }
 
-.rodape-alinhar{
+.rodape-alinhar {
     display: flex;
     justify-content: center;
 }
@@ -177,6 +181,7 @@ html, body {
     box-shadow: none;
     outline: none;
 }
+
 .accordion-button {
     background-color: transparent;
     color: var(--color-text);
@@ -201,8 +206,9 @@ html, body {
 }
 
 .value-text img {
-    max-width: 100px; /* Ajuste o tamanho conforme necessário */
+    max-width: 100px;
 }
+
 .value-text p {
-    margin-top: 10px; /* Ajuste o espaçamento conforme necessário */
+    margin-top: 10px;
 }
